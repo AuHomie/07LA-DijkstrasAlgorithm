@@ -4,16 +4,25 @@
 
 struct Pair {
 
-int node;
-int weight;
+    Pair(int n, int w){
+    node = n;
+    weight = w;
+    }
+
+    int weight;
+    int node;
 };
 
-class graph{
+class Graph{
 
-    Graph(string);
+    public:
+    Graph(std::string);
     int shortesdtCost(int start, int finish);
+
+
 private:
-    list<Pair>* adjList;
+    std::list<Pair>* adjList;
+    int numNodes;
 };
 
 
