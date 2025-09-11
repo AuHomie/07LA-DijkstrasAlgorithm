@@ -1,14 +1,11 @@
+#pragma once
 #include <iostream>
 #include <list>
 #include <string>
 
 struct Pair {
 
-    Pair(int n, int w){
-    node = n;
-    weight = w;
-    }
-
+    Pair(int n, int w) : node(n), weight(w) {};
     int weight;
     int node;
 };
@@ -21,8 +18,8 @@ class Graph{
 
 
 private:
-    std::list<Pair>* adjList;
-    int numNodes;
+    std::list<Pair>* adjList{nullptr};
+    int numNodes{0};
 };
 
 

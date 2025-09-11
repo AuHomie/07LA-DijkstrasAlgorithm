@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Graph.cpp"
+#include "Graph.h"
 
 
 using std::cout;
