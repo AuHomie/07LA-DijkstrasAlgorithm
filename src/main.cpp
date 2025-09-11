@@ -5,8 +5,6 @@
 using std::cout;
 using std::endl;
 
-
-
 int main(){
 
     Graph g1 ("graph.txt");
@@ -16,3 +14,4 @@ int main(){
     cout << "0->2:" << g1.shortestCost(0,2) << endl;
 
 }
+// end of main
