@@ -63,8 +63,9 @@ int Graph::shortestCost(int start, int finish){
                 }//for
             remaining.remove(cur);
             finished.push_back(cur);
-        }//while
+        };//while
     }
+
 
 
 
