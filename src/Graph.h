@@ -17,7 +17,7 @@ class Graph{
 
     public:
     Graph(std::string);
-    int shortesdtCost(int start, int finish);
+    int shortestCost(int start, int finish);
 
 
 private:

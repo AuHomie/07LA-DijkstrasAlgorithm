@@ -27,8 +27,10 @@ Graph::Graph(std::string filename){
             input >> value;
         }
     }
-    int Graph::shortesdtCost(int start, int finish){
-        
+}
+
+int Graph::shortestCost(int start, int finish){
+
         int* dist = new int[numNodes];
         list<int> remaining;
         list<int> finished;
@@ -63,6 +65,6 @@ Graph::Graph(std::string filename){
             finished.push_back(cur);
         }//while
     }
-};
+
 
 
